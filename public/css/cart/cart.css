@@ -1,0 +1,82 @@
+
+    .cart-item-img{
+        height: 80px;
+        width: 80px;
+    }
+
+    .input-items{
+        margin:0px;
+        padding: 2px;
+    }
+
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
+
+    .cart-content a{
+        text-decoration: none;
+    }
+
+    .cart-content a:hover{
+        color: white;
+    }
+
+    .shop-switch .nav-link.active, .nav-pills .show>.nav-link {
+        color: #fff;
+        background-color: #222831;
+    }
+
+    .change-shop{
+        float: right;
+    }
+    
+    .cart-item{
+        background-color: #222831;
+        color: beige;
+        margin-bottom:5px;
+        padding: 5px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.10);
+    }
+
+    .cart-title{
+        padding-left: 5px;
+    }
+
+    .itemInfo-line1{
+        color: burlywood;
+    }
+
+    .itemInfo-line2{
+        color: antiquewhite;
+    }
+
+    .itemInfo-line3{
+        color: azure;
+    }
+
+    .checkout-box{
+        padding: 15px;
+        background-color: lightgoldenrodyellow;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.10);
+    }
+
+    .couponTagImgCart{
+        height: 200px;
+        width: 200px;
+        top: -27px;
+        left: -31px;
+        background-size: contain;
+        background-position: center;
+        position: absolute;
+        z-index: 3;
+    }
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 992px) { 
+
+    .Ccoupon-cart{
+        width: 100% !important;
+    }
+
+}

@@ -1,0 +1,48 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+.comparisonTable-section div,.comparisonTable-section span,.comparisonTable-section applet,.comparisonTable-section object,.comparisonTable-section iframe,
+.comparisonTable-section h1,.comparisonTable-section h2,.comparisonTable-section h3,.comparisonTable-section h4,.comparisonTable-section h5,.comparisonTable-section h6,.comparisonTable-section p,.comparisonTable-section blockquote,.comparisonTable-section pre,
+.comparisonTable-section a,.comparisonTable-section abbr,.comparisonTable-section acronym,.comparisonTable-section address,.comparisonTable-section big,.comparisonTable-section cite,.comparisonTable-section code,
+.comparisonTable-section del,.comparisonTable-section dfn,.comparisonTable-section em,.comparisonTable-section img,.comparisonTable-section ins,.comparisonTable-section kbd,.comparisonTable-section q,.comparisonTable-section s,.comparisonTable-section samp,
+.comparisonTable-section small,.comparisonTable-section strike,.comparisonTable-section strong,.comparisonTable-section sub,.comparisonTable-section sup,.comparisonTable-section tt,.comparisonTable-section var,
+.comparisonTable-section b,.comparisonTable-section u,.comparisonTable-section i,.comparisonTable-section center,
+.comparisonTable-section dl,.comparisonTable-section dt,.comparisonTable-section dd,.comparisonTable-section ol,.comparisonTable-section ul,.comparisonTable-section li,
+.comparisonTable-section fieldset,.comparisonTable-section form,.comparisonTable-section label,.comparisonTable-section legend,
+.comparisonTable-section table,.comparisonTable-section caption,.comparisonTable-section tbody,.comparisonTable-section tfoot,.comparisonTable-section thead,.comparisonTable-section tr,.comparisonTable-section th,.comparisonTable-section td,
+article, aside, canvas, details, embed, 
+figure, figcaption,.comparisonTable-section footer,.comparisonTable-section header,.comparisonTable-section hgroup, 
+.comparisonTable-section menu,.comparisonTable-section nav,.comparisonTable-section output,.comparisonTable-section ruby,.comparisonTable-section section,.comparisonTable-section summary,
+.comparisonTable-section time,.comparisonTable-section mark,.comparisonTable-section audio,.comparisonTable-section video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+.comparisonTable-section article,.comparisonTable-section aside,.comparisonTable-section details,.comparisonTable-section figcaption,.comparisonTable-section figure, 
+.comparisonTable-section footer,.comparisonTable-section header,.comparisonTable-section hgroup,.comparisonTable-section menu,.comparisonTable-section nav,.comparisonTable-section section,.comparisonTable-section main {
+	display: block;
+}
+.comparisonTable-section {
+	line-height: 1;
+}
+.comparisonTable-section ol,.comparisonTable-section ul {
+	list-style: none;
+}
+.comparisonTable-section blockquote,.comparisonTable-section q {
+	quotes: none;
+}
+.comparisonTable-section blockquote:before,.comparisonTable-section blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+.comparisonTable-section table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}

@@ -1,0 +1,87 @@
+.dataTables_filter input { width: 300px;}
+
+
+.bg-info-dark{
+background: #38024D!important;
+
+}
+
+.dashboard-card{
+	border-left-style: solid;
+    border-left-color: #F21905;
+    border-left-width: 5px;
+    border-radius: 0.5rem;
+
+}
+
+
+
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+.mv-wallet-golbal-btn{
+	border-radius: 50%;
+	height: 80px;
+	width: 80px;
+	background: red;
+	float: right;
+	top: 70vh;
+	box-shadow: 1px 2px;
+	left: 90vw;
+	z-index: 2;
+	position: fixed;
+
+}
+
+.mv-wallet-golbal-btn:hover{
+	cursor: pointer;
+}
+
+.wallet-ui{
+	height: 400px;
+	width: 350px;
+	background-color:#fff;
+	border-radius: 0.35rem;
+	max-height: 500px;
+	overflow-y: scroll;
+	position: fixed;
+	left: 900px;
+	top: 100px;
+	z-index: 2;
+	
+}
+.wallet-ui::-webkit-scrollbar{
+	display: none;
+}
+
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.wallet-ui {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+.card-char{
+background-color: rgba(137,188,171,1.00)  /*rgba(255,241,179,1.00)*/;
+}
+
+
+@media screen and (max-width: 700px){
+	div.mv-wallet-golbal-btn{
+		top: 70vh;
+		left: 70vw;
+	}
+
+
+	.wallet-ui{
+		left: 100px;
+		top: 100px;
+		width: 300px;
+		height: 400px;
+
+	}
+}

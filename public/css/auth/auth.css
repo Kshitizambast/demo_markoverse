@@ -1,0 +1,121 @@
+.auth-fluid {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 100vh;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+   
+    background-size: cover !important;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.auth-fluid .auth-fluid-form-box {
+    max-width: 480px;
+    border-radius: 0;
+    z-index: 2;
+    padding: 3rem 2rem;
+    background-color:#363f49;
+    color: #aab8c5;
+    position: relative;
+    width: 100%;
+}
+
+.auth-form-box-border{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-size: 100% 100% !important;
+}
+
+.footer-alt {
+    left: 0;
+    border: none;
+    text-align: center;
+}
+.footer {
+    padding: 19px 24px 20px;
+    color: #98a6ad;
+}
+
+.auth-fluid .auth-fluid-right {
+    padding: 6rem 3rem;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    position: relative;
+    color: #fff;
+    background-color: rgba(0,0,0,.3);
+}
+
+.auth-brand {
+    margin-bottom: 2rem;
+}
+
+.auth-brand img{
+    height: 50px;
+}
+
+.auth-user-testimonial {
+        
+    position: absolute;
+    margin: 0 auto;
+    padding: 0 1.75rem;
+    /* bottom: 3rem; */
+    left: 50%;
+    right: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.auth-user-testimonial p.lead {
+    font-size: 1.125rem;
+    margin: 0 auto 20px auto;
+    max-width: 700px;
+}
+
+
+
+
+@media (max-width: 991.98px){
+
+    .auth-fluid .auth-fluid-form-box {
+    max-width: 100%;
+    min-height: 100vh;
+    padding: 0rem;
+}
+
+
+}
+
+@media (max-width: 991.98px) {
+.auth-fluid .auth-fluid-right {
+    display: none;
+}
+
+}
+
+@media (min-width: 992px){
+.auth-brand {
+    position: absolute;
+    top: 3rem;
+}
+}
+
+@media (min-width: 992px){
+    .text-lg-left {
+    text-align: left!important;
+}
+}
+

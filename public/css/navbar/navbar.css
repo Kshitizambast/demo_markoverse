@@ -1,0 +1,702 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#header-main a.nav-link:hover{
+    color: #ccc;
+    border-bottom: 2px solid white;
+}
+
+.flexRow{
+    display: inline-flex;
+}
+
+.shadow {
+    -moz-box-shadow:    0px 8px 16px 0px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+  }
+
+.shadow-inset{
+    -webkit-box-shadow: inset 0px 8px 16px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: inset 0px 8px 16px 0px rgba(0,0,0,0.4);
+    box-shadow: inset 0px 8px 16px 0px rgba(0,0,0,0.4);
+}
+
+.noWrap{
+    white-space: nowrap;
+}
+
+.txtOverflow{
+    overflow-x: scroll;    
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.txtOverflow::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE and Edge */
+.txtOverflow{
+    -ms-overflow-style: none;
+  }
+
+.category-tab-content>.active{
+    display: inline-flex;
+}
+
+.category-tab-content{
+    overflow: hidden;
+}
+
+
+/* Mobile view navigation components styling below */
+
+
+    .sidebarTrigger{
+        display: none;
+    }
+
+    #navbar-search{
+        display: block;
+        background:#222831;
+        height: 42px;
+        z-index: 45;
+        -webkit-box-shadow: 0px -2px 5px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -2px 5px 4px rgba(0,0,0,0.75);
+box-shadow: 0px -2px 5px 4px rgba(0,0,0,0.75);
+
+    }
+
+    .navbar-search-content{
+        display: flex;
+        padding-top: 2px;
+    }
+
+    .sticky-sidbarBtn-style{
+        margin-left: 5px;
+        padding: 2px 2px 0px 0px;
+    }
+
+    .sticky-cart-style{
+        color: white;
+        width: 32px;
+        height: 30px;
+        overflow: hidden;
+        font-size: large;  
+        margin: 5px 5px 0px 5px !important;
+        padding-left: 2px !important;   
+        padding-right: 9px !important;
+    }
+
+    /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
+    /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+    .sticky + .content {
+        padding-top: 60px;
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 320px;
+        position: fixed;
+        z-index: 300;
+        top: 0;
+        left: -330px;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: all 500ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
+        -webkit-transition: all 500ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
+        padding-top: 60px;
+        
+    }
+
+    .sidenav-shadow{
+        -webkit-box-shadow: 3px 0px 8px 9px rgba(0,0,0,0.5);
+        -moz-box-shadow: 3px 0px 8px 9px rgba(0,0,0,0.5);
+        box-shadow: 3px 0px 8px 9px rgba(0,0,0,0.5);
+    }
+    
+    .sidenav a.nav-link {
+        transition: 0.3s;
+        color: #2eaac7;
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 12px;
+        left: 225px;
+        margin-left: 50px;
+        width: 36px;
+        height: 32px;
+        background-size: cover;
+        background-image: url("/markoVerse/Files/header/navbar-imgs/markoverseIcon.png");
+    }
+    
+    @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+    }
+
+    #overlay {
+        position: fixed;
+        display: none;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.651);
+        z-index: 200;
+        cursor: pointer;
+    }
+
+    .sidenavUserGreet{
+        text-align: center;
+        color: white;
+        background-color: #222831;
+    }
+
+    .sidenavContentTitle{
+        color: white;
+        background-color: #222831;
+        padding-left: 25px;
+        margin-top: 8px;
+    }  
+
+    .slide_container {
+        overflow-x: scroll;
+        width: 100%;
+    }
+
+    .slide_control-left{
+        position: absolute;
+        top: 385px;
+        left: 230px;
+    }
+
+    .slide_control-right{
+        position: absolute;
+        top: 385px;
+        left: 275px;
+    }
+
+    .sidenavCategoryBrowser{
+        margin-top: 10px;
+    }
+
+/* Navbar top styling below */
+
+
+.navbar-top{
+    background:#222831;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.locationDropdownContent{
+    display: none;
+}
+
+#locationSearchBox{
+    width: 18rem; 
+    position: absolute; 
+    will-change: transform; 
+    padding: 0px;
+    border: 0px;
+    top: 0px; 
+    left: 0px; 
+    transform: translate3d(0px, 35px, 0px);
+}
+
+#sidenavlocationSearchBox{
+    width: 18rem; 
+    position: absolute; 
+    will-change: transform; 
+    padding: 0px;
+    border: 0px;
+    top: 0px; 
+    left: 0px; 
+    transform: translate3d(0px, 35px, 0px);
+}
+
+.CityName{
+    border-bottom: 1px solid white;
+}
+
+.markoverseFeatureBtn{
+    float: none;    
+    position: absolute;
+    top: inherit;
+}
+
+.markoverseFeatureBtn a.nav-link{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navHelpSection{
+    position: absolute;
+    top: inherit;
+    right: 0px;
+}
+
+.navHelpSection a.nav-link{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+/* Navbar main styling below */
+
+    .navbar-main{
+        background:#2f3b36;
+        color: white;
+        width: 100%;
+    }
+
+    .dropdownChartTrigger {
+      position: relative;
+      display: inline-block;
+    }
+
+    .category-chart-dropdown {
+      display: none;
+      position: absolute;
+      background-color:#222831;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+      will-change: transform;
+      transform: translate3d(0px, 5px, 0px);
+      padding: 10px 10px;
+      z-index: 35;
+    }
+
+    .dropdownChartTrigger:hover .category-chart-dropdown {
+      display: block;
+    }
+
+    .category-dropdown-header{
+        width: 100%;
+        padding: 10px;
+        background: #56655f;
+        color: white;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .category-tab-content{
+        background:#001e3e;
+    }
+
+    .sub-category-title{
+        position: absolute;
+        right: 20px;
+    }
+
+    .shop-category-tab{
+        margin-bottom: 8px;
+        border-radius: 10px !important; 
+        width: 225px;
+        color: white;
+        height: 135px;   
+        background-repeat: no-repeat;
+        background-size: cover;          
+    }
+
+    .shop-category-tab h4{
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.400);
+        font-weight: bold;
+        white-space: pre-wrap;
+    }
+
+    .shop-category-tab p{
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.400);
+        white-space: pre-wrap;
+    }
+
+    #Fashion-category-tab{
+        background-image: url("/markoVerse/Files/header/navbar-imgs/fashion.webp");       
+    }
+
+    #Food-category-tab{
+        background-image: url("/markoVerse/Files/header/navbar-imgs/food&drinks.jpg");
+    }
+
+    #Stores-category-tab{
+        background-image: url("/markoVerse/Files/header/navbar-imgs/storeIMG.jpg");
+    }
+
+    #Service-category-tab{
+        background-image: url("/markoVerse/Files/header/navbar-imgs/serviceIMG.jpg");
+    }
+
+    #EventManagement-category-tab{
+        background-image: url("/markoVerse/Files/header/navbar-imgs/eventIMG.jpg");
+    }
+
+    #Travel-category-tab{
+        background-image: url("/markoVerse/Files/header/navbar-imgs/travel.webp");
+    }
+
+    .product-category-list{
+        background:#001e3e;
+    }
+
+    .product-category-list a:hover{
+        text-decoration: none;
+        color: rgb(184, 184, 184);
+    }
+
+    .product-category-list-item-title{
+        font-weight: bold;
+        padding: 10px !important;
+        background: transparent;
+        color: white;
+    }
+
+    .product-category-list-item{
+        padding: 5px !important;
+        border: 0px;
+        background: transparent;
+        color: white;
+    }
+
+    .notification-menu{
+        border: none;
+        padding: 0px;
+        white-space: normal;
+        font-size: small;
+    }
+
+
+/* //////////////////////CSS MEDIA QUERY by MINIMUM/////////////////////////// */
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)
+   No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    .locationName{
+        width: 80px;
+        border-bottom: 1px solid white;
+    }
+
+    .markoverseFeatureBtn{        
+        left: 38%;
+        transform: translate(-40%);
+    }
+
+    .markoverseFeatureBtn a.nav-link{
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 0px;
+    }
+
+    .navHelpSection a.nav-link{
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 0px;
+    }
+
+    form > div {
+        position:relative;
+        margin-right:5px; /* same with `button width` + `button distance from search field` */
+    }
+
+    .category-chart-dropdown{
+        width: 620px;      
+    }
+
+    .dropdownChartTrigger{
+        margin-left: 10px; 
+    }
+
+    .category-tab-content{
+        width: 465px;
+        overflow-x: auto;
+    }    
+
+    #navbar-search{
+        display: none;
+    }
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+    .locationName{
+        width: 90px;
+        border-bottom: 1px solid white;
+    }
+
+    .markoverseFeatureBtn{        
+        left: 45%;
+        transform: translate(-45%);
+    }
+
+    .markoverseFeatureBtn a.nav-link{
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 0px;
+    }    
+
+    .navHelpSection a.nav-link{
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 0px;
+    }
+
+    form > div {
+        position:relative;
+        margin-right:5%; 
+    }   
+
+    .dropdownChartTrigger{
+        margin-left: 60px; 
+    }
+
+    .category-chart-dropdown{
+        width: fit-content;      
+    }
+
+    .category-tab-content{
+        width: 600px;
+    }
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+    .locationName{
+        width: auto;
+        border-bottom: 1px solid white;
+    }
+
+    .markoverseFeatureBtn{        
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .markoverseFeatureBtn a.nav-link{
+        margin-left: 25px;
+        margin-right: 25px;
+        padding: 0px;
+    }
+
+    .navHelpSection a.nav-link{
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 0px;
+    }
+
+    form > div {
+        position:relative;
+        margin-right:10%; 
+    }
+    
+    .dropdownChartTrigger{
+        margin-left: 100px; 
+    }
+
+    .category-tab-content{
+        width: 100%;
+    }
+
+ }
+
+
+/* //////////////////////CSS MEDIA QUERY by MAXIMUM/////////////////////////// */
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+
+ }
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+    a.nav-link:hover{
+        color: #ccc;
+        border: none;
+    }
+
+    .locationDropdown{
+        display: none;
+    }
+
+    .navHelpSection{
+        width: 117px;
+        overflow: hidden;
+    }
+
+    a.nav-link.Shop-LogIn{
+        width: 100%;
+    }
+
+    li.markoverseFeatureBtn{
+        padding-left: 5px;
+    }
+
+    li.markoverseFeatureBtn a.nav-link{
+        padding: 2px !important;
+        overflow: hidden;
+    }
+
+    a.nav-link.Invest{
+        width: 65px;
+    }
+
+    a.nav-link.Sell{
+        width: 52px;
+    }
+
+    a.nav-link.Discount{
+        width: 82px;
+    }
+
+    .sidebarTrigger{
+        display: block;
+    }
+
+    .dropdownChartTrigger{
+        display: none;
+    }
+
+    .locationName{
+        max-width: 130px;
+    }
+
+    form.form-inline.search-bar{
+        display: none;
+    }
+
+    .user-panel{
+        position: absolute;
+        right: 0px;
+    }
+
+    .user-panel a.nav-link{
+        width: 32px;
+        overflow: hidden;
+        font-size: large;  
+        margin: 0px 5px 0px 5px !important;
+        padding-left: 11px !important;   
+        padding-right: 9px !important;           
+    }
+
+    .notification-menu{
+        width: 97.4vw !important;
+    }
+
+    #navbar-search{
+        display: block;
+    }
+
+
+    /*///////////////////////  SIDE NAV CLONED Component Styling //////////////////////////*/
+
+    .sidenavLocation{
+        position: absolute;
+        top: 15px;
+        left: 25px;
+        color: white;
+        font-size: large;
+    }
+
+    #sidenavlocationSearchBox{
+        left: -10px !important;
+    }
+
+    .search-nav .form-control{
+        height: fit-content;
+    }
+
+    .search-nav .srch-btn{
+        margin: 0px !important;
+        z-index: 0 !important;
+    }
+
+    .sticky-sidbarBtn{
+        color: white;
+    }
+
+    .sidenavCategoryBrowser div.nav{
+        width: 320px;
+    }
+
+    .sidenav-markoverseFeatureBtn a.nav-link{
+        width: 100%;
+        padding-left: 15px;
+    }
+
+    .sidenav-markoverseFeatureBtn a :hover{
+        color: #001e3e  !important;
+    }
+
+ }
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+    .markoverseFeatureBtn a.nav-link{        
+        font-size: small;
+    }
+
+    .navHelpSection{
+        top: 2px;
+    }
+
+    .navHelpSection a.nav-link{        
+        font-size: small;
+    }
+
+    .user-panel{
+        font-size: small;
+        margin-top: 2px;
+    }
+ }
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+    .category-chart-dropdown{
+        left: 50%;
+        -webkit-transform: translate(-50%, 0);
+        -o-transform: translate(-50%, 0);
+        transform: translate(-15%, 2%);
+    }
+
+ }
+
+/* Extra large devices (large desktops) 
+   No media query since the extra-large breakpoint has no upper bound on its width */
+
+

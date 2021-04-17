@@ -1,0 +1,306 @@
+/* Homepage css unique to homepage */
+
+body{
+    background-color: #fcedb6;
+}
+.carousel-item-home img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    align-items: center;
+    filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
+
+.carousel-item-home{
+    height: 35vw;
+    width: 100%;
+}
+
+.carousel-caption-home{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.homepage-banner{
+    background-image: url("../img/adBannerIMG.jpg");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    float: right;
+    width: 40%;
+}
+
+
+
+.banner-container{
+    background-color: #d2d6fc;
+}
+
+.slide_container{
+    display: inline-flex;
+    overflow-x: scroll;
+    width: 100%;
+}
+
+.shop-card-home-container{
+    padding: 5px;
+}
+
+.slide_control-left{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 150px;   
+}
+
+.slide_control-btn-left{
+    padding: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.slide_control-right{
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 150px;    
+}
+
+.slide_control-btn-right{
+    padding: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.markoverse-bannerInfo-section{
+    width: 60%;
+    padding: 2px;    
+    background-color: #d2d6fc;
+    color: rgba(46, 76, 177, 0.842);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+#deal-card-1{
+    background: linear-gradient(90deg, rgba(252,70,107,1) 0%, rgba(255,74,0,1) 54%, rgba(251,236,63,1) 100%);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+#deal-card-2{
+    background: linear-gradient(90deg, rgba(255,66,69,1) 12%, rgba(12,136,186,1) 49%, rgba(164,239,255,1) 82%);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.deal-card-img-1{
+    float: right;
+    padding: 5px;
+    background-image: url("../img/Shop.svg");
+    background-size: cover;
+    background-position: center;
+    height: 165px;
+    background-repeat: no-repeat;
+    top: 15%;
+}
+
+.deal-card-img-2{
+    float: right;
+    padding: 5px;
+    background-image: url("../img/sliderBanner1.png");
+    background-size: contain;
+    background-position: center;
+    height: 165px;
+    background-repeat: no-repeat;
+    top: 15%;
+}
+
+.deal-card-info{
+    float: left;
+    padding: 10px;
+    height: 180px;
+    top: 15%;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    overflow: hidden;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .slide_control-left{
+        display: none;
+    }
+
+    .slide_control-right{
+        display: none;
+    }       
+
+  
+    
+    .carousel-item-home{
+        height: 65vw !important;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 575px) {
+
+    .product-image{
+
+        float:  left;
+        width:  100%;
+        height: 180px;    
+        object-fit:contain;
+    
+    }
+    
+    .banner-btn{
+        font-size: 2.6vw;
+    }
+
+    h4.text-background{
+        font-size: 4vw;
+        margin-bottom: 0px;
+    }
+
+
+    
+    .carousel-item-home{
+        height: 85vw !important;
+    }
+
+    .carousel-home-caption h3{
+        font-size: 6.5vw;
+        margin-bottom: 0px;
+    }
+
+    .carousel-home-caption p{
+        font-size: 4.7vw;
+        margin-bottom: 0px;
+    }
+
+    .homepage-banner{
+        width: 50%;
+    }
+
+    .markoverse-bannerInfo-section{
+        width: 50%;
+    }    
+
+    .deal-card{
+        min-width: 380px !important;
+    }
+    
+}
+
+@media only screen and (min-width: 576.8px){
+    
+    .product-image{
+
+        float:  left;
+        width:  100%;
+        height: 240px;    
+        object-fit:contain;
+    
+    }
+
+    .banner-btn{
+        font-size: 1.8vw;
+    }
+
+    h4.text-background{
+        font-size: 2.8vw;
+    }
+    
+    h4.text-background{
+    
+        margin: 5%;
+    }
+
+    .deal-card{
+        min-width: 380px !important;
+    }
+    
+    
+}
+
+@media only screen and (min-width: 768px){
+
+    .banner-btn{
+        font-size: 1.4vw;
+    }
+    
+    h4.text-background{
+        font-size: 2.3vw;
+    }
+    
+    }
+
+@media only screen and (min-width: 992px){  
+        
+        h4.text-background{
+            font-size: 1.8vw;
+        }
+
+        .banner-btn{
+            font-size: 1.2vw;
+        }
+   
+    }
+
+@media only screen and (min-width: 1200px){
+
+        
+        h4.text-background{
+            font-size: 1.6vw;
+        }
+
+
+        .banner-btn{
+            position: absolute;
+            bottom:   20;
+            left: 10;
+        }
+    
+    }
+
+@media only screen and (min-width: 1667px){
+
+
+    .carousel-item-home{
+        height: 25vw !important;
+    }
+        
+        h4.text-background{
+            font-size: 1.3vw;
+        }
+    
+        .banner-btn{
+            position: absolute;            
+            bottom:   20;
+            left: 10;
+        }
+    }
+

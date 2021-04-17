@@ -1,0 +1,515 @@
+
+.shop-open::before{
+  
+}
+
+.jumbotron-shopProfileContent{
+  backdrop-filter: blur(3px);
+  color: black;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.jumbotron-shopProfileContent .lead{
+  color: bisque;
+}
+
+.shop-time{
+  color: white;
+    font-weight: bolder;
+    width: fit-content;
+    float: right;
+    background: #3a3a3aad;
+    border-radius: .25rem;
+}
+
+.achievement-section{
+  width: fit-content;
+  background: #2f3b36;
+  padding: 5px;
+  border-radius: 15px;
+  margin-top: 10px;
+  -moz-box-shadow: 0px 8px 16px 0px rgb(0 0 0);
+    -webkit-box-shadow: 0px 8px 16px 0px rgb(0 0 0);
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0);
+}
+
+.badge-header{
+  padding: 2px;
+  border-radius: 10px;
+  background: #dc3545;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.badge-box{
+  background: #222831;
+  border-radius: 15px;
+  margin-top: 5px;
+  border: 5px solid blanchedalmond;
+}
+
+.badge-circle{
+  width: 100px;
+  height: 100px;  
+  margin: 5px;
+ 
+}
+
+.badge-circle-content{
+
+  position: relative;
+  width: 50px;
+  top: 10px;
+  left: 25px;
+  height: 50px;
+  background-color: antiquewhite;
+  border-radius: 50%;
+
+}
+
+.badge-circle-content h3{ 
+position: relative;
+color: #b22222;
+width: fit-content;
+top: 50%;
+bottom: auto;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+
+/* Sop tab section styling below */
+
+.shopProfile-nav-pills{
+  margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: fit-content;      
+}
+
+.shopProfile-nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color:#222831;
+}
+
+.bestProductBox{
+  border-radius: .25rem;
+}
+
+/* category card section */
+
+.category-card-section-shopProfile{
+  border-radius: .75rem;
+  background-color: white;
+  padding: 25px;  
+}
+
+.category-card-section .row{
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+
+.category-card{
+  background-color: #00006c;
+  border-radius: .75rem;
+  width: 200px;
+  height: 200px;
+  margin: 25px;
+}
+
+.category-card-backdrop{
+  width: 70%;
+  height: auto;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.category-card-header{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  color: #aa946e;
+  font-weight: bold;
+  background-color: #0000009e;
+  width: max-content;
+  padding: 5px;
+  border-radius: .75rem;
+}
+
+h3.category-header{ 
+  background-color: antiquewhite;
+  border-radius: 1rem;
+  width: auto;
+  color: slategrey;
+  font-weight: bolder;
+  margin-bottom: 25px;
+  letter-spacing: 3px;  
+}
+
+/* List style catalogue1 style below */
+
+.list-catalogue1{
+  background-color:#BFA288;
+  border-radius: .25rem;
+  padding: 15px;
+}
+
+.list-catalogue1-header{
+  width: 100%;
+  height: 35px;
+  margin-bottom: 15px;
+  color:#ffead2;
+}
+
+.list-catalogue1-container{
+  width: 100%;
+}
+
+.list-catalogue1-container .row{
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.list-catalogue1-container .col{
+  padding: 15px;
+}
+
+.list-catalogue1-container .badge{
+  height: 20px;
+  padding: 5px;
+}
+
+.list-catalogue-enclosure{
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(223,235,255,1);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(223,235,255,1);
+  box-shadow: 5px 5px 5px 0px rgba(223,235,255,1);
+  background-color: #3B4E58;
+}
+
+.list-catalogue1-img{
+  width: 160px;
+  height: 160px;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.list-catalogue1-info{
+  width: 80%;
+}
+
+.list-catalogue1-info .list-group-item{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  background-color: #3B4E58;
+  color: #B29966;
+}
+
+.list-catalogue1-info p.mb-1{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+
+/* list style catalogue 2 style below */
+
+
+.list-catalogue2{
+  background-color:#595959;
+  border-radius: .25rem;
+  padding: 15px;
+}
+
+.list-catalogue2-header{
+  width: 100%;
+  height: 35px;
+  margin-bottom: 15px;
+  color:#ffead2;
+}
+
+.list-catalogue2-container{
+  width: 100%;
+}
+
+.list-catalogue2-container .row{
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+}
+
+.list-catalogue2-container .col{
+  padding: 15px;
+}
+
+.list-catalogue2-info{
+  width: 100%;
+}
+
+.list-catalogue2-container .badge{
+  height: 20px;
+  padding: 5px;
+}
+
+.list-catalogue2-info p.mb-1{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+/* //////////////////////CSS MEDIA QUERY by MINIMUM/////////////////////////// */
+
+
+
+/* Extra small devices (portrait phones, less than 576px)
+   No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+
+  .appliedCoupon-shop{
+    margin-top: 25px !important;
+  }
+
+  h3.category-header{
+  margin-left: 15vw;
+  margin-right: 15vw;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {   
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+  .category-card-section-shopProfile{
+    background-color: white;
+    padding: 25px;    
+  }
+  
+}
+
+
+/* //////////////////////CSS MEDIA QUERY by MAXIMUM/////////////////////////// */
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+  .col-xs-6{
+  -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col-xs-12{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .jumbotron-shopProfile {
+    height: auto !important;
+  }
+
+  .achievement-section {
+    width: 100%;
+  }
+
+  .badge-box{
+    width: inherit;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+
+  .badge-scroll{
+    width: fit-content;
+  }
+
+  .category-card-section-shopProfile {
+    padding: 0px;
+    padding-top: 25px;
+  }
+
+
+  h3.category-header{ 
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+  }
+
+  .category-card {
+    width: 125px !important;
+    height: 125px !important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .category-card h5{
+    font-size: 0.8rem;
+  }
+
+  /* List style catalogue1 style below */
+
+  .list-catalogue1 {
+    padding: 5px;
+  }
+  
+  .list-catalogue1-container .col{
+    padding: 5px;
+  }
+
+  .list-catalogue1-container a.list-group-item{
+    padding: 5px;
+  }
+  
+  .list-catalogue1-header{
+    margin-bottom: 5px;
+  }
+
+  .list-catalogue1-header h4{
+    font-size: 1.3rem;
+  }
+  
+  .list-catalogue1-img{
+    width: 135px;
+    height: auto;
+  }
+
+  .list-catalogue1-info h5{
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  /* list style catalogue 2 style below */
+
+  .list-catalogue2 {
+    padding: 5px;
+  }
+  
+  .list-catalogue2-container .col{
+    padding: 5px;
+  }
+
+  .list-catalogue2-container a.list-group-item{
+    padding: 5px;
+  }
+  
+  .list-catalogue2-header{
+    margin-bottom: 5px;
+  }
+
+  .list-catalogue2-header h4{
+    font-size: 1.3rem;
+  }
+
+  .list-catalogue2-info h5{
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+  .jumbotron-shopProfile {
+    height: 50vh;
+  }
+
+  .jumbotron-shopProfileContent{
+    margin-top: 0px;
+  }
+
+  .jumbotron-shopProfileContent .display-4 {
+    font-size: 2rem;
+  }
+
+  .jumbotron-shopProfileContent .lead{
+    font-size: 1rem;
+  }
+
+  .jumbotron-shopProfileContent p{
+    font-size: 0.8rem;
+  }
+
+  .shop-time {
+    font-size: 0.8rem;
+  }
+
+  .badge-header {
+    font-size: 0.9rem;
+  }
+
+  .badge-circle {
+    width: 50px;
+    height: 50px;
+  }
+
+  .badge-circle-content {
+    position: relative;
+    width: 25px;
+    top: 5px;
+    left: 12px;
+    height: 25px;
+  }
+
+  .badge-circle-content h3{
+    font-size: 1.1rem;
+  }
+
+
+  .shopProfile-nav-pills{
+    width: auto;
+    overflow-x: scroll;
+    flex-wrap: nowrap !important;
+    display: -webkit-box;  
+  }
+
+  .bestProductBox-header h3{
+    font-size: 1.5rem;
+  }
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+  
+}
+
+/* Extra large devices (large desktops) 
+  No media query since the extra-large breakpoint has no upper bound on its width */

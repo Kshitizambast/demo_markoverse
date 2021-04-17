@@ -1,0 +1,1184 @@
+/*body{
+    background: #fcedb6;
+}
+*/
+.wrapper{
+    margin: 2%;
+    
+}
+
+.carousel-item{
+    height: auto;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 35vh;
+    object-fit: cover;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.carousel-textbox{
+    background-color: rgba(0,0,0, 0.5);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+
+
+/* Trending category styling starts below */
+
+.trending-category-row{
+    width: 100%;
+}
+
+.trending-category-titleBar{
+    color: white;
+    background-color: black;
+    padding: 5px;
+    margin: 15px 15px 0px 15px;
+    height: 38px;
+    border-radius: 25px;
+}
+
+.trending-category-titleBar p{
+    float: left;
+    background-color: #87556f;
+    border-radius: 15px;
+    padding: 2px 5px 2px 5px;
+    font-weight: bold;
+    -webkit-box-shadow: inset 0px 6px 6px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: inset 0px 6x 6px 0px rgba(0,0,0,0.2);
+    box-shadow: inset 0px 6px 6px 0px rgba(0,0,0,0.7);
+}
+
+.trending-category-titleBar a{
+    float: right;
+    text-decoration: none;
+    padding: 2px;
+    color: inherit;
+}
+
+.trending-category-titleBar a:hover{
+    color: #ccc;
+    border-bottom: 2px solid white;
+}
+
+.circleBox-scroll{
+    width: inherit;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+/* .circleBox-scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, 0.425);
+    background-color: #ffd2b0;
+} */
+
+/* .circleBox-scroll::-webkit-scrollbar-thumb {
+    background-color: #8f643f;
+} */
+
+.circleBox-scroll::-webkit-scrollbar {
+    height: 0px;
+    background-color: #F5F5F5;
+}
+
+.trending-category-container{
+    position: relative;
+    top: -15px;
+}
+
+.category-circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #ffd2b0;
+    margin: 15px;
+    -webkit-box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.5);
+box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.5);
+}
+
+.category-circle-content{
+    position: relative;
+    width: 90px;
+    top: 5px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 5px;
+    background-size: contain !important;
+    background-repeat: round !important;
+    -webkit-box-shadow: inset 1px 5px 5px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: inset 1px 5px 5px 0px rgba(0,0,0,0.5);
+box-shadow: inset 1px 5px 5px 0px rgba(0,0,0,0.5);
+}
+
+.category-circle-content h1{
+    position: relative;
+    color: #b22222;
+    width: fit-content;
+    margin-top: 25px;
+    top: 50%;
+    bottom: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.category-circle-name{
+    padding: 3px;
+    background: black;
+    color: #ffd2b0;
+    border: 2px solid #aa7145;
+    border-radius: 15px;
+}
+
+.tredningCategory_slide_control-left{
+    position: absolute;
+    left: 0px;
+    padding-left: 2%;
+    z-index: 2;
+    padding-top: 20px;
+    visibility: hidden;
+}
+
+.tredningCategory_slide_control-right{
+    position: absolute;
+    right: 0px;
+    padding-right: 2%;
+    z-index: 2;
+    padding-top: 20px;
+}
+
+.slide_control-overlaybtn-left{
+    height: 85px;
+    color: white;
+    background-color: #2e2a2c81;
+}
+
+.slide_control-overlaybtn-right{
+    height: 85px;
+    color: white;
+    background-color: #2e2a2c7c;
+}
+
+/* Trending category styling ENDS */
+
+
+
+/* Customer of the day styling below */
+
+.customerOfTheDay-card{
+    height: auto;
+    width: 100%;
+    background-color: #8f1c21;
+    float: left;
+    padding: 10px;
+    border-radius: 5px !important;
+}
+
+.customerOfTheDay-card-header{
+    width: 100%;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: bottom !important;
+
+}
+
+.customerOfTheDay-card-title{
+    height: auto;
+    width: inherit;
+    background-color: #a31b18;
+    color: #fec88a;
+    font-family: 'Marck Script', cursive;
+}
+
+.customerOfTheDay-avatar{
+    border-radius: 50%;
+    position: relative;    
+    background: #f7c48b;
+-webkit-box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.5);
+box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.5);
+}
+
+.customerOfTheDay-avatar-content{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    border-radius: 50%;
+    background-size: cover !important;
+background-position: center !important;
+-webkit-box-shadow: inset 1px 5px 5px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: inset 1px 5px 5px 0px rgba(0,0,0,0.5);
+box-shadow: inset 1px 5px 5px 0px rgba(0,0,0,0.5);
+}
+
+.customerOfTheDay-card-footer{
+    width: inherit;
+    height: 200px;
+    background-color: #901d22;;
+}
+
+.customerOfTheDay-name{
+    background: black;
+    color: #ffd2b0;
+    border: 2px solid #aa7145;
+    border-radius: 15px;
+}
+
+.cutomerOfTheDay-counterRow{
+    display: flex;
+    width: 100%;
+    padding-top: 5px;
+    height: 90px;
+}
+
+.cutomerOfTheDay-counterTab{
+    width: 32%;
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 90px;
+    background: #af1e25;
+    color:  #fdcb91;
+    border-radius: 15px;
+}
+
+.cutomerOfTheDay-counterTab h2{
+    margin-top: 15px;
+}
+
+.cutomerOfTheDay-reviewTab{
+    height: 33px;
+    margin: 15px 10px 0px 10px;
+    background: #fdcb91;
+    color: #af1e25;
+    border: 2px solid #aa7145;
+    border-radius: 15px;
+    -webkit-box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.5);
+box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.5);
+}
+
+.cutomerOfTheDay-reviewTab i{
+    float: right;
+    padding: 4px;
+}
+
+/* Customer of the day styling ends */
+
+
+
+/* markoverse-HomePageDeals & Posters styling below */
+
+
+    .markoverse-HomePageDeals{        
+        width: 100%;
+        height: 100%;
+        background-color:#ebe9ee;
+        color: rgb(22, 22, 22);
+    }
+
+
+    .markoverse-HomePageDeals a{
+        position: absolute;
+        right: 15px;
+        top: 0px;
+    }
+
+    .markoverse-HomePagePosterSection{
+        width: 100%;
+        height: 100%;
+        background-color:#34278d;
+        color: white;
+    }
+
+    .HomePagePoster .row{
+        height: 265px;
+    }
+
+    .HomePagePoster-Img{
+        background-size: contain !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+    }
+
+    .banner-container {
+        background-color: #d2d6fc;
+    }
+
+    .markoverse-bannerInfo-section {
+        width: 60%;
+        padding: 2px;
+        background-color: #d2d6fc;
+        color: rgba(46, 76, 177, 0.842);
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .homepage-banner{
+        background-image: url('../homePage/homepageImg/adBannerIMG.jpg');
+        background-size: contain;
+        background-position: right;
+        background-repeat: no-repeat;
+        float: right;
+        width: 40%;
+    }
+
+    .markoverse-HomePageCategoryDeals a{
+        position: absolute;
+        right: 15px;
+        top: 0px;
+        padding: 5px !important;
+    }
+
+    .featuredProductCard{
+        height: 100%;
+    }
+
+/* markoverse-HomePageDeals & Posters styling ends */
+
+
+
+/* Product catalogue style below */
+
+    .product-catalogue-titlebar{
+        height: fit-content;
+        width: 100%;
+        margin: 15px 15px 0px 15px;
+        background-color:#26211b;
+        color: white;
+        border-radius: .25rem;
+    }
+
+    .product-catalogue-scroll{
+        width: inherit;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+    }   
+
+    .product-catalogue-scroll::-webkit-scrollbar {
+        height: 0px;
+        background-color: #F5F5F5;
+    }
+
+    .productCatalogue_slide_control-left{
+        position: absolute;
+        left: 0px;
+        padding-left: 2%;
+        z-index: 2;
+        padding-top: 10.4rem;
+        visibility: hidden;
+    }
+    
+    .productCatalogue_slide_control-right{
+        position: absolute;
+        right: 0px;
+        padding-right: 2%;
+        z-index: 2;
+        padding-top: 10.4rem;
+    }
+
+    #Lctrl-productCatalogue{
+        background-color: rgba(255, 255, 255, 0.699);
+        color: #26211b;
+    }
+
+    #Rctrl-productCatalogue{
+        background-color: rgba(255, 255, 255, 0.699);
+        color: #26211b;
+    }
+
+    .product-catalogue-content{
+        position: relative;
+    }
+
+    .product-card{
+        position: relative;
+        border-radius: .25rem;
+    }
+
+    .product-cardImg{
+        border-radius: .25rem;
+    }
+
+    .product-cardImg span{
+        position: absolute;
+        margin: 10px;
+    }
+
+    .product-cardInfo{
+        width: 100%;
+        padding: 5px;
+        margin-top: 2px;
+        border-radius: .25rem;
+        
+    }
+
+    .productBrand{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        overflow: hidden;
+    }
+
+    .productDescr{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+    }
+
+    .product-cardInfo p{
+        margin-bottom: 2px !important;
+    }
+
+
+/* Product catalogue style ends */
+
+
+
+/* Trending shop row styling below */
+
+.trendingShop-titlebar{
+
+    height: fit-content;
+    width: 100%;
+    margin: 15px 15px 0px 15px;
+    background-color: #8B7B78;
+    color: white;
+    border-radius: .25rem;
+}
+
+.trendingShop-scroll{
+    width: inherit;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}   
+
+.trendingShop-scroll::-webkit-scrollbar {
+    height: 0px;
+    background-color: #F5F5F5;
+}
+
+.trendingShop_slide_control-left{
+    position: absolute;
+    left: 0px;
+    padding-left: 2%;
+    z-index: 2;
+    padding-top: 11rem;
+    visibility: hidden;
+}
+
+.trendingShop_slide_control-right{
+    position: absolute;
+    right: 0px;
+    padding-right: 2%;
+    z-index: 2;
+    padding-top: 11rem;
+}
+
+#Lctrl-trendingShop{
+    background-color: #d95525bf;
+    color: wheat;
+}
+
+#Rctrl-trendingShop{
+    background-color:#d95525bf;
+    color:wheat;
+}
+
+.shop-card{
+    background-color: #2D2C40;
+    position: relative;
+    color: bisque;
+    margin-left: 10px;
+    border-radius: .25rem;
+}
+
+.shop-card-img{
+    width: 100%;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.shop-card-img span{
+    position: absolute;
+    margin: 10px;
+}
+
+.shop-name{
+    background-color: #F2E2CE;
+    color:  #2D2C40;
+    -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        overflow: hidden;
+}
+
+.shop-address{
+    -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+}
+
+.featured-item-img{
+    border: 2px solid sandybrown;
+    border-radius: .25rem;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+/* Trending shop row style ends */
+
+
+/* Trending coupon row style below */
+
+.trendingCoupon-titlebar{
+
+    height: fit-content;
+    width: 100%;
+    margin: 15px 15px 0px 15px;
+    background-color:#BF1736;
+    color: white;
+    border-radius: .25rem;
+}
+
+.trendingCoupon-scroll{
+    width: inherit;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}   
+
+.trendingCoupon-scroll::-webkit-scrollbar {
+    height: 0px;
+    background-color: #F5F5F5;
+}
+
+.trendingCoupon_slide_control-left{
+    position: absolute;
+    left: 0px;
+    padding-left: 2%;
+    z-index: 2;
+    padding-top: 9rem;
+    visibility: hidden;
+}
+
+.trendingCoupon_slide_control-right{
+    position: absolute;
+    right: 0px;
+    padding-right: 2%;
+    z-index: 2;
+    padding-top: 9rem;
+}
+
+#Lctrl-trendingCoupon{
+    background-color:#f2dac4b8;
+    color: rgb(29, 29, 29);
+}
+
+#Rctrl-trendingCoupon{
+    background-color: #f2dac4b8;
+    color:rgb(29, 29, 29);
+}
+
+/* Trending coupon style ends */
+
+
+/* Blog section styling below */
+
+    .blogSection-titlebar{
+        height: fit-content;
+        width: 100%;
+        margin: 15px 15px 0px 15px;    
+        border-radius: .25rem;     
+        border-bottom: 3px solid #26211b;
+    }
+
+    .blogSection-titlebar h4{
+        background-color: #26211b;
+        color: white;
+        border: 3px solid white;
+    }
+
+    .blog-card{
+        width: 100%;
+        height: fit-content;
+        padding: 10px;
+        background-position: right !important;
+        background-size: cover !important;
+        color: white;
+        border: 1px solid white;
+        border-radius: .25rem;
+    }
+
+    .blog-card h4{
+        margin-bottom: 10px;
+    }
+
+    p.blog-card-text{        
+        margin-bottom: 10px;
+        height: 100px;
+        overflow: hidden;
+    }
+
+
+/* Blog section styling ends */
+
+
+
+
+
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////  Minimum width styles below  /////////////////////// */
+/* //////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+    .bannerTxt{
+        margin: 5%;
+        font-size: 2.8vw;
+    }
+
+    .HomePageDealsCategory-CardImg{
+        height: 5rem;
+        background-size: cover !important;
+        background-position: center !important;
+    }
+
+    .featuredProduct-CardImg{
+        height: 10rem;
+        background-size: cover !important;
+        background-position: center !important;
+    }
+
+ }
+
+/* ///////////////////////////////////////////// */
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    /* Customer of the day styling below */
+
+    .customerOfTheDay-card-header{
+
+        height: 300px;
+
+    }
+
+    .customerOfTheDay-avatar{        
+        width: 120px;
+        height: 120px;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50%,-50%);
+    }
+
+    .customerOfTheDay-avatar-content{
+        position: relative;
+        width: 110px;
+        height: 110px;
+    }
+
+    .customerOfTheDay-name{
+        padding: 3px;
+        margin: 70px 10px 0px 10px;
+    }
+
+    .cutomerOfTheDay-counterTab p{
+        margin: 0px;
+        font-size: smaller;
+    }
+
+    .cutomerOfTheDay-reviewTab{
+        padding: 3px;
+    }
+
+    /* Customer of the day styling ends */
+
+
+    /* Best Deal Of Markoverse product catalogue style below */
+
+    
+
+    /* Best Deal Of Markoverse product catalogue style ENDS */
+
+    .banner-container{
+        width: 80%;
+    }
+
+    .bannerTxt{
+        font-size: 2.3vw;
+    }
+
+    .HomePageDealsCategory-CardImg{
+        height: 6rem;
+        background-size: cover !important;
+        background-position: center !important;
+    }
+
+    .featuredProduct-CardImg{
+        height: 13rem;
+        background-size: cover !important;
+        background-position: center !important;
+    }
+
+ }
+
+
+ /* ///////////////////////////////////////////// */
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+    /* Customer of the day styling below */
+
+    .customerOfTheDay-card-header{
+
+        height: 350px;
+
+    }
+
+    .customerOfTheDay-card-title h4{
+        font-size: xx-large;
+    }
+
+    .customerOfTheDay-avatar{
+        width: 150px;
+        height: 150px;
+    }
+
+    .customerOfTheDay-avatar-content{
+        position: relative;
+        width: 140px;
+        height: 140px;
+    }
+
+    .customerOfTheDay-name{
+        padding: 2px;
+        font-size: x-large;
+        margin: 80px 10px 0px 10px;
+    }
+
+    .cutomerOfTheDay-counterTab p{
+        margin: 0px;
+        font-size: smaller;
+    }
+
+    .cutomerOfTheDay-reviewTab{
+        padding: 3px;
+    }
+        
+
+     /* Customer of the day styling ends */
+
+     /* Homepage Deal Card catalogue style below */
+
+    .HomePageDeals-CardGrid1{
+        height: 45%;
+        padding-top: 25px;
+    }
+
+    .HomePageDeals-CardGrid2{
+        height: 45%;
+        padding-top: 10px;
+    }
+
+    .HomePageDeals-CardImg{
+        height: 11rem;
+        background-size: cover !important;
+        background-position: center !important;
+    }
+
+     /* Homepage deals Card catalogue ENDS */    
+
+     .bannerTxt{
+        font-size: 1.8vw;
+    }
+
+    .HomePageDealsCategory-CardImg{
+        height: 8rem;
+        background-size: cover !important;
+        background-position: center !important;
+    }
+    
+    .featuredProduct-CardImg{
+        height: 16rem;
+        background-size: cover !important;
+        background-position: center !important;
+    }
+
+
+    /* Product catalogue style below */
+
+    .product-card{
+        width: 12rem;
+        margin-left: 10px;
+        background-color: white
+    }
+
+    .product-cardImg{
+        width: 12rem;
+        height: 12rem;
+        background-size: contain !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+    }
+
+    /* Product catalogue styling ends */
+
+
+    /* Trending shop row styling below */
+
+    .shop-card{
+        width: 18rem;
+    }
+
+    .shop-card-img{
+        height: 11.5rem;
+    }
+
+    .featured-item-img{
+        width: 5rem;
+        height: 5rem;
+        margin: 5px;
+    }
+
+    /* Trending shop row styling ends */
+
+ }
+
+
+ /* ///////////////////////////////////////////// */
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+    .markoverse-HomePagePosterSection{
+        padding-top: 20px;
+    }
+
+    .bannerTxt{
+        font-size: 1.6vw;
+    }
+
+    .HomePageDealsCategory-CardImg{
+        height: 7rem;
+        background-size: cover !important;
+        background-position: center !important;
+    }
+
+    .featuredProduct-CardImg{
+        height: 13rem;
+        background-size: cover !important;
+        background-position: center !important;
+    }
+ }
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////// */
+/* ////////////////////  Maximum width styles  /////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .HomePagePoster .row{
+        height: 180px;
+    }
+
+    .HomePageDeals-CardImg{
+        height: 6rem !important;
+    }
+
+    .bannerTxt{
+        font-size: 4vw;
+        margin-bottom: 0px;
+    }
+
+    .HomePageDealsCategory-CardImg{
+        height: 7rem;
+        background-size: cover !important;
+        background-position: center !important;
+    }
+
+    .featuredProduct-CardImg{
+        height: 14rem;
+        background-size: cover !important;
+        background-position: center !important;
+    }
+ }
+
+
+ /* ////////////////////////////////////////////////////////////////// */
+
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .circleBox-scroll::-webkit-scrollbar {
+        display: none;
+      }
+
+      /* Hide scrollbar for IE, Edge and Firefox */
+      .circleBox-scroll {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+
+    .tredningCategory_slide_control-left{
+        display: none;
+    }
+
+    .tredningCategory_slide_control-right{
+        display: none;
+    }
+
+    /* Customer of the day styling below */
+
+    .customerOfTheDay-card-header{
+
+        height: 210px;
+
+    }
+
+    .customerOfTheDay-avatar{
+        width: 120px;
+        height: 120px;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50%,-50%);
+    }
+
+    .customerOfTheDay-avatar-content{
+        position: relative;
+        width: 110px;
+        height: 110px;
+    }
+
+    .customerOfTheDay-name{
+        padding: 3px;
+        margin: 10px 10px 0px 10px !important;
+    }
+
+    .cutomerOfTheDay-counterTab p{
+        margin: 0px;
+        font-size: smaller;
+    }
+
+    .cutomerOfTheDay-reviewTab{
+        padding: 3px;
+    }
+
+    /* Customer of the day styling ends */
+
+    /* Homepage Deal Card catalogue style below */
+
+    .markoverse-HomePageDeals h4{
+        font-size: unset;
+    }
+
+    .markoverse-HomePageDeals a{
+        font-size: smaller;
+        padding: 7px !important;
+    }
+
+    .HomePageDeals-CardGrid1{
+        height: 45%;
+    }
+
+    .HomePageDeals-CardGrid2{
+        height: 45%;
+        padding-bottom: 10px;
+    }
+
+    /* Homepage deals Card catalogue ENDS */
+
+    /* Product catalogue style below */
+
+    .productCatalogue_slide_control-left{
+        display: none;
+    }
+
+    .productCatalogue_slide_control-right{
+        display: none;
+    }
+
+    .product-catalogue-titlebar h4{
+        font-size: medium;
+    }
+
+    .product-catalogue-titlebar a{
+        padding: 2px !important;
+    }
+
+    .productBrand{
+        font-size: medium;
+    }
+
+    .productDescr{
+        font-size: smaller;
+    }
+
+    /* Product catalogue styling ends */
+
+    /* Trending shop row styling below */
+
+    .trendingShop-titlebar h4{
+        font-size: large;
+    }
+
+    .trendingShop-titlebar a{
+        padding: 3px !important;
+    }
+
+    .trendingShop_slide_control-left{
+        display: none;
+    }
+
+    .trendingShop_slide_control-right{
+        display: none;
+    }
+
+    .shop-card{
+        margin-left: 5px !important;
+    }
+
+    .shop-card-img h3{
+        font-size: medium;
+    }
+
+    .shop-name{
+        font-size: medium;
+    }
+
+    .shop-address{
+        font-size: small;
+    }
+
+    /* Trending shop row styling ends */
+
+    /* Trending coupons row style below */
+
+    .trendingCoupon-titlebar h4{
+        font-size: medium;
+        padding: 5px !important;
+    }
+
+    .trendingCoupon-titlebar a{
+        padding: 3px !important;
+    }
+
+    .trendingCoupon_slide_control-left{
+        display: none;
+    }
+
+    .trendingCoupon_slide_control-right{
+        display: none;
+    }
+
+    /* Trending coupon row stylining ends */
+    
+    .blogSection-titlebar h4{
+        font-size: medium;
+    }
+ }
+
+
+/* ////////////////////////////////////////////////////////////////// */
+
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+    /* Homepage Deal Card catalogue style below */
+
+    .HomePageDeals-CardGrid1{
+        height: 45%;
+        padding-top: 25px;
+    }
+
+    .HomePageDeals-CardGrid2{
+        height: 45%;
+        padding-top: 10px;
+    }
+
+    .HomePageDeals-CardImg{
+        height: 9rem;
+        background-size: cover !important;
+        background-position: center !important;
+    }
+
+     /* Homepage deals Card catalogue ENDS */
+
+     /* Product catalogue style below */
+
+    .product-card{
+        width: 9rem;
+        margin-left: 5px;
+    }
+
+    .product-cardImg{
+        width: 9rem;
+        height: 9rem;
+        background-size: contain !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+    }
+
+    /* Product catalogue styling ends */
+
+    /* Trending shop row styling below */
+
+    .shop-card{
+        width: 14rem;
+    }
+
+    .shop-card-img{
+        height: 9rem;
+    }
+
+    .featured-item-img{
+        width: 4rem;
+        height: 4rem;
+        margin: 3px;
+    }
+
+    /* Trending shop row styling ends */
+    
+ }
+
+
+/* ////////////////////////////////////////////////////////////////// */
+
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { ... }

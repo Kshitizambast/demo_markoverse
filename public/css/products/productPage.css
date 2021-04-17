@@ -1,0 +1,222 @@
+:root{
+    --breakpoint: 768px;
+}
+
+.productImg-section{
+    grid-area: productImg;
+    height: 100%;
+}
+
+.slider{
+        position: sticky;
+        top: 20px;
+        left: 0;
+}
+
+li.slide_img_box_active{
+    height: 70%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide_img_box_active img{
+    height: 100% !important;
+}
+
+.selection-section{
+    grid-area: selection;
+    background-color:#fff7da;
+}
+
+.productHighlightList{
+    background-color: peachpuff;
+    color: dimgrey;
+    border-left: 2px solid chocolate;
+}
+
+.couponTagImg{
+    height: 200px;
+    width: 200px;
+    top: -27px;
+    left: -31px;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    z-index: 3;
+}
+
+.couponGift-section{
+    background: cornsilk;
+}
+
+.coupon-details ul{
+    background-color: blanchedalmond;
+    border-left: 2px solid burlywood;
+}
+
+
+/* Comparsion table styling below */
+
+.cd-intro{
+    background-color:#F4F3F1;
+    color: black;
+}
+
+.cd-products-comparison-table header{
+    background-color:#C10414;
+    padding: 25px !important;
+    color: whitesmoke;
+}
+
+a.reset{
+    color: wheat !important;
+}
+
+.cd-products-comparison-table{
+    background-color: #2D2C40;
+    color: #F2E2CE;
+}
+
+.top-info{
+    color: black;
+}
+
+.features .cd-features-list{
+    background-color:#C10414;
+    color: #F4F3F1;
+}
+
+
+/* Faq and review section styling below */
+
+.faq-section{
+    background-color: rgb(20, 20, 20);;
+}
+
+.question-date{
+    position: absolute;    
+    right: 5px;
+}
+
+.faq-question{
+    margin-left: 40px;
+}
+
+.reviewSortBtn{
+    position: absolute;
+    right: 20px;
+}
+
+.faq-lists .list-group-item{
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.faq-lists .list-group-item p{
+    font-size: 0.9rem;
+}
+
+.faqReply-list{
+    background-color: rgb(44, 44, 44) !important;
+    color: white;
+    padding: 5px !important;
+    border-bottom: 2px solid;
+}
+
+.close{
+    position: absolute;
+    right: 18px;
+    top: 10px;
+}
+
+.review-section{
+    background: #272727;
+}
+
+.review-lists .list-group-item{
+    background-color: inherit;
+    color: #F4F3F1;
+}
+
+
+
+/* //////////////////////CSS MEDIA QUERY by MINIMUM/////////////////////////// */
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)
+   No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    .purchase-section {
+
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        display: grid;
+        grid-column-gap: 2rem;
+        grid-template-columns: 48% 48%;
+        grid-template-rows: auto;
+        grid-template-areas: 
+          "productImg selection"
+          
+        }
+
+    
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+
+}
+
+
+/* //////////////////////CSS MEDIA QUERY by MAXIMUM/////////////////////////// */
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+
+}
+
+/* Extra large devices (large desktops) 
+  No media query since the extra-large breakpoint has no upper bound on its width */
